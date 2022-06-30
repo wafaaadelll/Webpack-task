@@ -1,0 +1,54 @@
+.card {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px;
+    width: 30%;
+}
+
+.p {
+    padding: 5px;
+    color: rgb(0, 0, 29);
+}
+
+.sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('../../assets/city.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-weight: bolder;
+    color: rgb(6, 0, 47);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 45px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
